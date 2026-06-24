@@ -1,18 +1,23 @@
 owner: briped
 repo: sit
 
+skipPoweredByReadme: true
 sites:
   - name: VIA
-    url: ${VIA_URL}
+    url: $VIA_URL
   - name: SSP
-    url: ${SSP_URL}
+    url: $SSP_URL
   - name: SEG
-    url: ${SEG_URL}
+    url: $SEG_URL
   - name: ENS
-    url: ${ENS_URL}
+    url: $ENS_URL
   - name: UAG
-    url: ${UAG_URL}
+    url: $UAG_URL
     __dangerous__disable_verify_peer: true
+
+i18n:
+  #footer: This page is [open source]($REPO), powered by [Upptime](https://upptime.js.org)
+  footer: This page is powered by [Upptime](https://upptime.js.org)
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -21,8 +26,8 @@ status-website:
   baseUrl: /sit
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  #introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
+  #introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
     - title: Status
       href: /sit
