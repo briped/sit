@@ -1,7 +1,7 @@
-url: ${VIA_URL}
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2026-06-24T20:27:26.841Z
+url: $VIA_URL
+status: up
+code: 200
+responseTime: 1294
+lastUpdated: 2026-06-24T20:58:07.133Z
 startTime: 2026-06-24T20:27:14.827Z
 generator: Upptime <https://github.com/upptime/upptime>
