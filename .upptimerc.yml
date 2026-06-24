@@ -12,8 +12,9 @@ sites:
   - name: ENS
     url: $ENS_URL
   - name: UAG
+    check: "tcp-ping"
     url: $UAG_URL
-    __dangerous__insecure: true
+    port: $UAG_PORT
 
 i18n:
   #footer: This page is [open source]($REPO), powered by [Upptime](https://upptime.js.org)
