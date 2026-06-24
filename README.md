@@ -20,8 +20,6 @@
 
 <!--end: status pages-->
 
-[**Visit our status website →**](https://xmpl.dk)
-
 ## 📄 License
 
 - Powered by: [Upptime](https://github.com/upptime/upptime)
