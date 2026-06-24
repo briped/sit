@@ -1,6 +1,5 @@
 owner: briped
 repo: sit
-locale: da-DK
 skipPoweredByReadme: true
 sites:
   - name: VIA
@@ -17,6 +16,7 @@ sites:
     port: $UAG_PORT
 
 i18n:
+  locale: da-DK
   #footer: This page is [open source]($REPO), powered by [Upptime](https://upptime.js.org)
   footer: This page is powered by [Upptime](https://upptime.js.org)
 
