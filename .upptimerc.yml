@@ -1,6 +1,6 @@
 owner: briped
 repo: sit
-locale: en-DK
+locale: da-DK
 skipPoweredByReadme: true
 sites:
   - name: VIA
