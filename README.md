@@ -1,6 +1,4 @@
-# [📈 Live Status](https://xmpl.dk): <!--live status--> **🟥 Complete outage**
-
-This repository contains the open-source uptime monitor and status page for [Brian Schmidt Pedersen](https://xmpl.dk), powered by [Upptime](https://github.com/upptime/upptime).
+# [📈 Live Status](https://xmpl.dk/sit): <!--live status--> **🟥 Complete outage**
 
 [![Uptime CI](https://github.com/briped/sit/workflows/Uptime%20CI/badge.svg)](https://github.com/briped/sit/actions/workflows/uptime.yml)
 [![Response Time CI](https://github.com/briped/sit/workflows/Response%20Time%20CI/badge.svg)](https://github.com/briped/sit/actions/workflows/response-time.yml)
