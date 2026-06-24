@@ -1,7 +1,7 @@
-url: ${SSP_URL}
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2026-06-24T20:27:41.123Z
+url: $SSP_URL
+status: up
+code: 200
+responseTime: 25918
+lastUpdated: 2026-06-24T20:58:35.205Z
 startTime: 2026-06-24T20:27:29.114Z
 generator: Upptime <https://github.com/upptime/upptime>
