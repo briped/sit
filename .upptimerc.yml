@@ -13,7 +13,7 @@ sites:
     url: $ENS_URL
   - name: UAG
     url: $UAG_URL
-    __dangerous__disable_verify_peer: true
+    __dangerous__insecure: true
 
 i18n:
   #footer: This page is [open source]($REPO), powered by [Upptime](https://upptime.js.org)
