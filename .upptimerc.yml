@@ -4,6 +4,10 @@ skipPoweredByReadme: true
 sites:
   - name: VIA
     url: $VIA_URL
+  - name: LDV
+    url: $LDV_URL
+  - name: OWA
+    url: $OWA_URL
   - name: SSP
     url: $SSP_URL
   - name: SEG
