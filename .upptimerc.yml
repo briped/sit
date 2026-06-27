@@ -6,6 +6,29 @@ sites:
     url: $VIA_URL
   - name: LDV
     url: $LDV_URL
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 202
+      - 203
+      - 204
+      - 205
+      - 206
+      - 207
+      - 208
+      - 226
+      - 300
+      - 301
+      - 302
+      - 303
+      - 304
+      - 305
+      - 306
+      - 307
+      - 308
+      - 401
+      - 403
+      - 404
   - name: OWA
     url: $OWA_URL
   - name: SSP
