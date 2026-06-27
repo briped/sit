@@ -1,46 +1,40 @@
 owner: briped
 repo: sit
-skipPoweredByReadme: true
 sites:
+  - name: WS1 Secure Email Gateway
+    url: $WS1SEG_URL
+  - name: Exchange ActiveSync
+    url: $WS1EAS_URL
+    expectedStatusCodes:
+      - 401
+  - name: WS1 Email Notification Service
+    url: $WS1ENS_URL
+  - name: WS1 Unified Access Gateway Tunnel Service
+    check: "tcp-ping"
+    url: $WS1TUN_URL
+    port: $WS1TUN_PORT
+  - name: WS1 Self-Service Portal
+    url: $WS1SSP_URL
+  - name: WS1 Content Gateway
+    url: $WS1CG_URL
+  - name: WS1 Device Management
+    url: $WS1DM_URL
+  - name: WS1 Device Services
+    url: $WS1DS_URL
+  - name: WS1 Device Services Enrollment
+    url: $WS1DSE_URL
+  - name: WS1 App Catalog
+    url: $WS1AC_URL
   - name: VIA
     url: $VIA_URL
   - name: LDV
     url: $LDV_URL
     expectedStatusCodes:
       - 200
-      - 201
-      - 202
-      - 203
-      - 204
-      - 205
-      - 206
-      - 207
-      - 208
-      - 226
-      - 300
-      - 301
-      - 302
-      - 303
-      - 304
-      - 305
-      - 306
-      - 307
-      - 308
       - 401
       - 403
-      - 404
   - name: OWA
     url: $OWA_URL
-  - name: SSP
-    url: $SSP_URL
-  - name: SEG
-    url: $SEG_URL
-  - name: ENS
-    url: $ENS_URL
-  - name: UAG
-    check: "tcp-ping"
-    url: $UAG_URL
-    port: $UAG_PORT
 
 i18n:
   locale: da-DK
