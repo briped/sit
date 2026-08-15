@@ -236,20 +236,20 @@
     "url": "$LDV_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "ldv",
-    "status": "down",
-    "uptime": "99.89%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.82%",
-    "uptimeYear": "99.89%",
-    "time": 1095,
-    "timeDay": 628,
-    "timeWeek": 717,
-    "timeMonth": 1314,
-    "timeYear": 1095,
+    "status": "up",
+    "uptime": "99.86%",
+    "uptimeDay": "98.95%",
+    "uptimeWeek": "99.85%",
+    "uptimeMonth": "99.78%",
+    "uptimeYear": "99.86%",
+    "time": 1098,
+    "timeDay": 933,
+    "timeWeek": 782,
+    "timeMonth": 1312,
+    "timeYear": 1098,
     "dailyMinutesDown": {
       "2026-07-18": 79,
-      "2026-08-15": 0
+      "2026-08-15": 15
     }
   },
   {
